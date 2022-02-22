@@ -1,0 +1,153 @@
+.title:hover{
+ color:red;  
+ font-weight: 800;
+} 
+#subtitle
+{
+    color: rgb(255, 44, 44);
+}
+body{
+    background: url(https://images.pexels.com/photos/9443229/pexels-photo-9443229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)
+}
+body{
+   font-size: 1.5em;                                    /*FONT SIZE*/
+   font-family:serif                          /*HOW LETTERS LOOK*/
+
+    /*text-transform: capitalize; */            /*CAPITALIZE FIRST LETTER*/
+   /* text-transform: uppercase; */               /*UPPERCASE LETTER*/
+   /* text-transform: lowercase;                 LOWERCASE LETTER  */                      
+}
+
+body{
+    text-align: center;
+   /* text-align: justify;*/                     /*ALIGN TEXT*/
+}
+
+.fonts{
+    font-style: oblique;                        /*TEXT STYLE*/
+}
+
+
+
+
+
+
+/*li:first-child{                                /*list
+    color: red;
+}
+*/
+#text3:link{                                      /*GOOGLE LİNK*/
+
+color: green;
+}
+
+.link{
+
+   /*text-decoration: none;*/
+    text-decoration: underline;
+ /*  text-decoration: line-through;*/         /*DECORATION*/
+  /*text-decoration: overline;*/
+  display: inline-block;
+}
+
+
+
+#text3:visited{
+
+    color: rgb(233, 13, 13);
+}
+
+h2+a{
+color: peru;
+}
+
+textarea ~ button{
+
+    color: blueviolet;
+}
+
+ul>li{
+    color: blue;
+} 
+
+#qabil{
+height: 400px;
+width: 400px;
+background: radial-gradient(circle, rgb(0, 13, 128),yellow,orange);
+border: 10px solid rgb(124, 135, 41);              /*DASHED, DOTTED. DOUBLE*/
+/*padding: 40px;*/
+padding-left: 100px;
+padding-top: 40px;
+padding-right: 40px;
+padding-bottom: 100px;
+/*float: right;*/
+}
+#qabil2{
+    height: 400px;
+    width: 400px;
+    background:linear-gradient(to right, blue, green,yellow);
+    border: 10px solid red;
+    margin: 40px;
+    
+}
+
+#float{
+    float: right
+}
+.list{
+    display: none;
+}
+.container{
+    background-color: rgb(170, 170, 170);
+    margin: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+.c-item{
+    background: rgb(124, 135, 41);
+    color: blueviolet;
+    font-size: 25;
+    text-align: center;
+
+    width: 70px;
+line-height: 50px; 
+margin: 10px;
+}
+.grid{
+    background-color: white;
+    margin: 10px;
+    height: 300px;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:  auto auto;
+    justify-content: end;
+}
+
+.grid-item{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+
+    width: 70px;
+    line-height: 40px;
+    margin: 10px;
+}
+
+.sumbit{
+    color: blue;
+    margin: 10px;
+    background-color: brown;
+    border: 5px solid blue; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 20px;
+     transition: background 300ms ease-in-out;
+}
+.sumbit:hover {
+    background-color: red; padding: 20px 30px;
+
+}
