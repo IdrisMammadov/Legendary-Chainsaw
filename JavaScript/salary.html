@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="fulldiv">
+        
+		<p> Enter the following information to calculate your annual salary.</p>
+					
+		<p>Hourly Wage:
+		<input type="text" name="wage" id="txt_wage" value ="0.00"/></p>
+					
+		<p>Hours Per Week:
+		<input type="text" name="hours" id="txt_hours" value= "0.0"/> <br/><br/>
+
+        <p>
+            Abesent Day:
+            <input type="text" name="apsent" id="absent_day" value="0.0">
+        </p>
+		
+		<button value="calculate" onclick="calcSalary()">Calculate</button></p>
+		
+		<p id="results"></p>
+					
+		<script type="text/javascript">
+		
+		function calcSalary() {
+      var wage_element = document.getElementById('txt_wage');
+      var wage = parseInt(wage_element.value);
+      var hours_element = document.getElementById('txt_hours');
+      var hours = parseInt(hours_element.value);
+      var absent_element= document.getElementById('absent_day');
+      var absent= parseInt(absent_element.value);
+      0.0
+      var calculate = wage *hours-hours*absent ;
+      document.getElementById('results').innerHTML = calculate;
+		}
+		</script>
+				
+					
+				
+
+</div>
+</body>
+</html>
